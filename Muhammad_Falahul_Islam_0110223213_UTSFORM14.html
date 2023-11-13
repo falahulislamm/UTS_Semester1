@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .simpandaftar
+        {
+            margin-left: 50px;
+            margin-top: 15px;
+        }
+
+        fieldset 
+        {
+            width: 500px;
+            background: linear-gradient(rgb(103, 250, 243), rgb(243, 104, 104), rgb(107, 240, 107));
+        }
+
+        .email
+        {
+            padding-left: 91px;
+        }
+
+        .alamatweb
+        {
+            padding-left: 50px;
+        }
+
+        .alamatlengkap
+        {
+            padding-left: 23px;
+        }
+
+        .jeniswisata
+        {
+            padding-left: 58px;
+        }
+
+        .deskripsiwisata
+        {
+            padding-left: 30px;
+        }
+
+        .kontakperson
+        {
+            padding-left: 35px;
+        }
+
+        .nohp
+        {
+            padding-left: 37px;
+        }
+
+        .latitude
+        {
+            padding-left: 3px;
+        }
+
+
+
+    </style>
+    <title>UTS</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Form Registrasi Rekreasi Kuliner</legend>
+        <div>
+            <form action="" method="POST">
+                <table>
+                    <tr>
+                        <td>Nama Tempat Wisata </td>
+                        <td><input type="text" name="name" placeholder="Enter Name" required style="background-color: rgb(206, 203, 201);" cols="30"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="jeniswisata">Jenis Wisata </td>
+                        <td><select name="" id="" style="background-color: rgb(206, 203, 201);">
+                            <option>Kedai Kopi</option>
+                            <option>Dufan</option>
+                            <option>Ancol</option>
+                        </select></td>
+                    </tr>
+
+                    <tr>
+                        <td class="deskripsiwisata">Deskripsi Wisata </td>
+                        <td><textarea name="description" placeholder="Enter Description Here" cols="30" rows="5" required style="background-color: rgb(206, 203, 201);"></textarea></td>
+                    </tr>
+
+                    <tr>
+                        <td class="kontakperson">Kontak Person :     </td>
+                        <td><input type="text" name="name" placeholder="Enter Contact Person" required style="background-color: rgb(206, 203, 201);"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="nohp">No HP/Telpon :       </td>
+                        <td><input type="text" name="number" placeholder="Enter Number Here" required style="background-color: rgb(206, 203, 201);"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="email">Email : </td>
+                        <td><input type="text" name="email" placeholder="Enter Email Here" required style="background-color: rgb(206, 203, 201);"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="alamatweb">Alamat Web :        </td>
+                        <td><input type="text" name="web" placeholder="http://" required style="background-color: rgb(206, 203, 201);"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="alamatlengkap">Alamat Lengkap :         </td>
+                        <td><input type="text" name="alamat" placeholder="Enter Address Here" required style="background-color: rgb(206, 203, 201);"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="latitude">Latitude, Longitude :       </td>
+                        <td><input type="text" name="latitude" placeholder="Enter Here" required style="background-color: rgb(206, 203, 201);"></td>
+                    </tr>
+                </table>
+
+                <div class="simpandaftar">
+                    <input type="submit" name="proses" value="Daftar" style="background-color: mediumblue; color: white; box-shadow: black 4px 3px 2px;">
+                    <input type="reset" name="unproses" value="Batal" style="background-color: red; color: white; box-shadow: black 4px 3px 2px;margin-left: 10px;">
+                </div>
+            </form>
+        </div>
+    </fieldset>
+</body>
+</html>
